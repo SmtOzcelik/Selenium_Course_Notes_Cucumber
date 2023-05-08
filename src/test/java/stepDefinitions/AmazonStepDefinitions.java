@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
@@ -15,7 +16,7 @@ public class AmazonStepDefinitions {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
     }
-    @Then("Kullanici Nutella icin arama yapar")
+    @Then("kullanici Nutella icin arama yapar")
     public void kullanici_nutella_icin_arama_yapar() {
     amazonPage.aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
 
@@ -31,5 +32,25 @@ public class AmazonStepDefinitions {
         Driver.closeDriver();
 
     }
+    @Then("kullanici Java icin arama yapar")
+    public void kullanici_java_icin_arama_yapar() {
+        amazonPage.aramaKutusu.sendKeys("Java"+ Keys.ENTER);
+    }
+    @Then("sonuclarin Java icerdigini test eder")
+    public void sonuclarin_java_icerdigini_test_eder() {
+        String expectedKelime="Java";
+        Assert.assertTrue(amazonPage.aramaSonucElementi.getText().contains(expectedKelime));
+    }
 
+
+    @Then("kullanici samsung icin arama yapar")
+    public void kullaniciSamsungIcinAramaYapar() {
+        amazonPage.aramaKutusu.sendKeys("samsung"+ Keys.ENTER);
+    }
+
+    @Then("sonuclarin samsung icerdigini test eder")
+    public void sonuclarinSamsungIcerdiginiTestEder() {
+        String expectedKelime="samsung";
+        Assert.assertTrue(amazonPage.aramaSonucElementi.getText().contains(expectedKelime));
+    }
 }
