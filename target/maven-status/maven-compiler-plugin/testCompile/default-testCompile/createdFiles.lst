@@ -1,4 +1,5 @@
 stepDefinitions/AmazonStepDefinitions.class
+stepDefinitions/DataTablesStepDefinitions.class
 stepDefinitions/HMCStepDefinitions.class
 utilities/Driver.class
 runners/Runner.class

@@ -3,5 +3,6 @@
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/runners/Runner.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/AmazonStepDefinitions.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/AmazonPage.java
+/Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/DataTablesStepDefinitions.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/utilities/Driver.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/HMCStepDefinitions.java
