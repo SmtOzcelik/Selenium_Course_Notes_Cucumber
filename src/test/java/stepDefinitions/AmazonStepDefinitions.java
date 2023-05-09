@@ -83,4 +83,9 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(actualUrl.contains(istenenKelime));
 
     }
+
+    @Then("kullanici {int} sn bekler")
+    public void kullaniciSnBekler(int istenenSaniye) throws InterruptedException {
+        Thread.sleep(istenenSaniye*1000);
+    }
 }
