@@ -71,4 +71,16 @@ public class AmazonStepDefinitions {
         String expectedKelime = istenenKelime;
         Assert.assertTrue(amazonPage.aramaSonucElementi.getText().contains(expectedKelime));
     }
+
+    @Given("kullanici {string} anasayfasinda")
+    public void kullaniciAnasayfasinda(String istenenUrl) {
+        Driver.getDriver().get(ConfigReader.getProperty(istenenUrl));
+    }
+
+    @And("url in {string} icerdigini test eder")
+    public void urlInIcerdiginiTestEder(String istenenKelime) {
+        String actualUrl=Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(istenenKelime));
+
+    }
 }
