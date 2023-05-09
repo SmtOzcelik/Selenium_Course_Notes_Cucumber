@@ -1,5 +1,6 @@
 package stepDefinitions;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.HMCPage;
@@ -32,4 +33,18 @@ public class HMCStepDefinitions {
 
     }
 
+    @And("gecersiz password girer")
+    public void gecersizPasswordGirer() {
+        hmcPage.passwordKutusu.sendKeys(ConfigReader.getProperty("HMCWrongPassword"));
+    }
+
+    @Then("sayfaya giris yapilamadigini test  eder")
+    public void sayfayaGirisYapilamadiginiTestEder() {
+        Assert.assertTrue(hmcPage.loginButonu2.isDisplayed());
+    }
+
+    @And("gecersiz username girer")
+    public void gecersizUsernameGirer() {
+        hmcPage.usurnameKutusu.sendKeys(ConfigReader.getProperty("HMCWrongUsername"));
+    }
 }
