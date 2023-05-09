@@ -15,4 +15,4 @@
       |nutella      |
       |java         |
       |elma         |
-      |armat        |
+      |armut        |
