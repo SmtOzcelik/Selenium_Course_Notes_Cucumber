@@ -1,5 +1,5 @@
 utilities/Driver.class
 runners/Runner.class
-pages/AmazonPage.class
 stepDefinitions/AmazonStepDefinitions.class
 utilities/ConfigReader.class
+pages/AmazonPage.class
