@@ -2,4 +2,6 @@ utilities/Driver.class
 runners/Runner.class
 stepDefinitions/AmazonStepDefinitions.class
 utilities/ConfigReader.class
+stepDefinitions/HMCStepDefinitions.class
+pages/HMCPage.class
 pages/AmazonPage.class
