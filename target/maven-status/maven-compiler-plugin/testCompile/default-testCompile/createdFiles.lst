@@ -5,6 +5,7 @@ stepDefinitions/HMCStepDefinitions.class
 utilities/Driver.class
 runners/Runner.class
 stepDefinitions/GuruStepDefinitions.class
+stepDefinitions/Hooks.class
 utilities/ConfigReader.class
 pages/HMCPage.class
 pages/DatatablesPage.class

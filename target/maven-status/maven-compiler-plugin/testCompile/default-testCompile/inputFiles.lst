@@ -6,6 +6,7 @@
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/DatatablesPage.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/AmazonPage.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/DataTablesStepDefinitions.java
+/Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/Hooks.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/utilities/Driver.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/HMCStepDefinitions.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/GuruPage.java
