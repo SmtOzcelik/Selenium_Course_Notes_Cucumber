@@ -5,4 +5,5 @@ utilities/Driver.class
 runners/Runner.class
 utilities/ConfigReader.class
 pages/HMCPage.class
+pages/DatatablesPage.class
 pages/AmazonPage.class

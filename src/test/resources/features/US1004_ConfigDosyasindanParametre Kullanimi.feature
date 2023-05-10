@@ -1,3 +1,4 @@
+@amazon
 Feature: US1004 Kullanici parametre ile configuration file i kullanibilme
 
   Scenario: TC07 configration properties dosyasindan parametre kullanimi

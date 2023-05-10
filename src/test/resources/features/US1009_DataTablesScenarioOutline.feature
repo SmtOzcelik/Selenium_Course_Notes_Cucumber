@@ -6,14 +6,20 @@ Feature: US1009 datatables sitesine 5 farkli giris yapalim
     When kullanici "datatablesUrl" adresine girer
     Then new butonuna basar
     And isim bolumune "<firstname>" yazar
+    And kullanici 1 sn bekler
     And soyisim bolumune "<lastname>" yazar
+    And kullanici 1 sn bekler
     And position bolumune "<position>" yazar
+    And kullanici 1 sn bekler
     And ofis bolumune "<ofis>" yazar
+    And kullanici 1 sn bekler
     And starDate bolumune "<starDate>" yazar
+    And kullanici 1 sn bekler
     And salary bolumune "<salary>" yazar
+    And kullanici 1 sn bekler
     And Create tusuna basar
-    When kullanici ilk isim ile arama yapar
-    Then isim bolumunde isminin oldugunu dogrular
+    When kullanici "<fistname>" ile arama yapar
+    Then isim bolumunde "<fistname>" oldugunu dogrular
 
     Examples:
     |firstname|lastname|position|office|extension|startDate|salary|
