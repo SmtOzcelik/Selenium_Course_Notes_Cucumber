@@ -1,3 +1,4 @@
+/Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/GuruStepDefinitions.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/utilities/ConfigReader.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/HMCPage.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/runners/Runner.java
@@ -7,3 +8,4 @@
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/DataTablesStepDefinitions.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/utilities/Driver.java
 /Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/stepDefinitions/HMCStepDefinitions.java
+/Users/fadimeozcelik/IdeaProjects/Selenium_Cucumber/src/test/java/pages/GuruPage.java
