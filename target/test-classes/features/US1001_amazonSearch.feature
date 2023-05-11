@@ -1,7 +1,7 @@
 @tumu
 Feature: Amazon Search
 
-  @nutella
+  @nutella @pr1
   Scenario: TC01 kullanici amazonda Nutella aratir
 
     Given  kullanici amazon anasayfasinda
@@ -9,7 +9,7 @@ Feature: Amazon Search
     And sonuclarin Nutella icerdigini test eder
     And sayfayi kapatir
 
-  @java
+  @java @pr2
   Scenario: TC2 kullanici amazonda Java aratir
     Given kullanici amazon anasayfasinda
     Then kullanici Java icin arama yapar
@@ -17,7 +17,7 @@ Feature: Amazon Search
     And sonuclarin Java icerdigini test eder
     And sayfayi kapatir
 
-  @samsung
+  @samsung @pr1
   Scenario: TC03 kullanici samsung aratir
     When kullanici amazon anasayfasinda
     Then kullanici samsung icin arama yapar

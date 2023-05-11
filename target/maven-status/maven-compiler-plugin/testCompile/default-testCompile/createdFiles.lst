@@ -1,12 +1,13 @@
 stepDefinitions/AmazonStepDefinitions.class
 stepDefinitions/DataTablesStepDefinitions.class
+runners/TestRunner.class
 pages/GuruPage.class
 stepDefinitions/HMCStepDefinitions.class
 utilities/Driver.class
-runners/Runner.class
 stepDefinitions/GuruStepDefinitions.class
 stepDefinitions/Hooks.class
 utilities/ConfigReader.class
 pages/HMCPage.class
+runners/TestRunner2.class
 pages/DatatablesPage.class
 pages/AmazonPage.class

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="2.845" tests="2" skipped="0" failures="2" errors="0">
-<testcase classname="Amazon Search" name="TC01 kullanici amazonda Nutella aratir" time="1.715">
+<testsuite name="Cucumber" time="2.851" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Amazon Search" name="TC2 kullanici amazonda Java aratir" time="1.742">
 <failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepDefinitions.AmazonStepDefinitions">
 <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepDefinitions.AmazonStepDefinitions
 	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
@@ -61,7 +61,7 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
 	... 50 more
-Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:49484/devtools/browser/2c2d1956-da88-4647-acb9-fd73dc165c31
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:49483/devtools/browser/38060e79-9ff0-4c24-b1dd-2c17176f8d06
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.3.1', java.version: '11.0.19'
 Driver info: driver.version: Driver
@@ -82,12 +82,12 @@ Driver info: driver.version: Driver
 </failure>
 <system-out><![CDATA[
 Given kullanici amazon anasayfasinda........................................failed
-Then kullanici Nutella icin arama yapar.....................................skipped
-And sonuclarin Nutella icerdigini test eder.................................skipped
+Then kullanici Java icin arama yapar........................................skipped
+And sonuclarin Java icerdigini test eder....................................skipped
 And sayfayi kapatir.........................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Amazon Search" name="TC03 kullanici samsung aratir" time="1.025">
+<testcase classname="US1002 kullanici ortak adimlari Background ile calistirir" name="TC05 amazon java arama" time="1.001">
 <failure type="io.cucumber.core.exception.CucumberException" message="Failed to instantiate class stepDefinitions.AmazonStepDefinitions">
 <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepDefinitions.AmazonStepDefinitions
 	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
@@ -148,7 +148,7 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
 	at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
 	... 50 more
-Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:49502/devtools/browser/04d1398d-dd0d-49df-a3bd-e381320e9bd3
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:49501/devtools/browser/b4f626d7-8ddf-46a7-bf59-2ca7a7981600
 Build info: version: '4.7.1', revision: 'c6795baf1a3'
 System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.3.1', java.version: '11.0.19'
 Driver info: driver.version: Driver
@@ -168,9 +168,9 @@ Driver info: driver.version: Driver
 ]]>
 </failure>
 <system-out><![CDATA[
-When kullanici amazon anasayfasinda.........................................failed
-Then kullanici samsung icin arama yapar.....................................skipped
-Then sonuclarin samsung icerdigini test eder................................skipped
+Given kullanici amazon anasayfasinda........................................failed
+And kullanici Java icin arama yapar.........................................skipped
+Then sonuclarin Java icerdigini test eder...................................skipped
 And sayfayi kapatir.........................................................skipped
 ]]></system-out>
 </testcase>
