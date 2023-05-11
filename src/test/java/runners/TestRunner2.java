@@ -12,14 +12,8 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@pr1",
+        tags = "@pr2",
         dryRun = false
 )
-
-
-
-public class TestRunner {
-
-
-
+public class TestRunner2 {
 }
