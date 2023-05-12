@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber2.xml"},
         features = "src/test/resources/features",
         glue = "stepDefinitions",
-        tags = "@pr2",
+        tags = "@java",
         dryRun = false
 )
 public class TestRunner2 {

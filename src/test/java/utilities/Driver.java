@@ -24,7 +24,9 @@ public class Driver {
 
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    ChromeOptions co=new ChromeOptions();
+                    co.addArguments("--remote-allow-origins=*");
+                    driver = new ChromeDriver(co);
                     break;
                 case "safari":
                     WebDriverManager.safaridriver().setup();
